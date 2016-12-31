@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+               <TextView
+ android:id="@+id/textView1"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:background="#0040FF"
+ android:gravity="center"
+ android:text="Thống kê"
+ android:textSize="25dp"
+ android:textStyle="italic"
+ android:textColor="#ffffff" />
+               
+  <TextView
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_marginTop="30dp"
+ android:layout_marginBottom="30dp"
+ android:gravity="center"
+ android:text="Chọn biểu đồ"
+ android:textSize="25dp"
+ android:textStyle="bold"/>"
+<ScrollView  
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+<RadioGroup 
+    android:id="@+id/radiohgrouptk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="20dp">
+    
+    <RadioButton  android:id="@+id/radiobttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textColor="#0066FF"
+        android:text="Biểu Đồ Khoản Thu"/>
+
+    <RadioButton
+        android:id="@+id/radiobttc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0066FF"
+        android:text="Biểu Đồ Khoản Chi" />
+    
+      <RadioButton  android:id="@+id/radiobkv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textColor="#0066FF"
+        android:text="Biểu Đồ Khoản Cho Vay"/>
+
+    <RadioButton
+        android:id="@+id/radiobkn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#0066FF"
+        android:text="Biểu Đồ Khoản Nợ" />
+
+</RadioGroup>
+</ScrollView>
+</LinearLayout>
